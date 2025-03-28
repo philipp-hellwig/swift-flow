@@ -67,3 +67,5 @@ def toyswift(nu, r, mt=200, eta=-3, NW=10, max_saccades=20, skip_ms=10, return_a
         return {"trajectory": trajectory_df, "activations": activations_df}
     else:
         return traj
+    
+
